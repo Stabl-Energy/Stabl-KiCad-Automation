@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+\title{PCB Spec}
+\author{ {{author}} }
+\date{\today}
+\begin{document}
+  \maketitle
+
+  \section{Overview}
+
+  \begin{table}[]
+    \begin{tabular}{ll}
+      {% for key, value in specs.items() %}
+        {{key}} & {{value}} \\
+      {% endfor %}
+    \end{tabular}
+  \end{table}
+
+
+
+\end{document}

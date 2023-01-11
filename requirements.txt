@@ -1,0 +1,3 @@
+pcbnew
+jinja2
+latex
